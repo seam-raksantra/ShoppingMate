@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ShopMate</string>
+    <string name="category">Categories</string>
+    <string name="vegetable">Vegetable</string>
+    <string name="fruit">Fruit</string>
+    <string name="meat">Meat</string>
+    <string name="diary">Diary</string>
+    <string name="content">Welcome to ShopMate!</string>
+    <string name="history_button">history</string>
+    <string name="history_search">Search history....</string>
+    <string name="back">back</string>
+    <string name="history">Manage History</string>
 </resources>
