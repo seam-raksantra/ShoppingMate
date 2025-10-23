@@ -1,4 +1,4 @@
-package com.firstapp.shopmate
+package com.firstapp.shopmate.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,6 +10,7 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
+import com.firstapp.shopmate.R
 import java.util.Locale
 import java.util.stream.Collectors
 

@@ -10,4 +10,7 @@
     <string name="history_search">Search history....</string>
     <string name="back">back</string>
     <string name="history">Manage History</string>
+    <string name="welcome">Welcome to ShopMate</string>
+    <string name="intro_text">Your friendly companion for daily grocery shopping fresh, fast, and simple!</string>
+    <string name="get_start">Get Started</string>
 </resources>

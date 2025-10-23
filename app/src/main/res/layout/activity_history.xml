@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="#FFFFFF"
     android:padding="16dp"
-    tools:context=".HistoryActivity">
+    tools:context=".view.HistoryActivity">
 
     <!-- Back button and title -->
     <LinearLayout
@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
 
         <ImageView
             android:id="@+id/backButton"
@@ -40,29 +41,31 @@
         android:orientation="horizontal"
         android:background="@drawable/bg_search"
         android:gravity="center_vertical"
-        android:padding="15dp"
+        android:padding="10dp"
         android:paddingHorizontal="10dp"
         android:layout_marginTop="16dp">
 
         <ImageView
-            android:layout_width="18dp"
-            android:layout_height="18dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:src="@drawable/search"
             android:layout_marginEnd="8dp"
-            app:tint="#888" />
+            app:tint="#888"
+            tools:ignore="ContentDescription" />
 
         <EditText
             android:id="@+id/searchHistory"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:autofillHints=""
             android:hint="@string/history_search"
             android:textColor="#000"
             android:textColorHint="#888"
             android:textSize="18sp"
-            android:background="@null"/>
+            android:background="@null"
+            tools:ignore="TextFields" />
 
     </LinearLayout>
-
 
     <!-- History List -->
     <ListView
@@ -72,4 +75,5 @@
         android:layout_weight="1"
         android:layout_marginTop="15dp"
         android:dividerHeight="8dp" />
+
 </LinearLayout>

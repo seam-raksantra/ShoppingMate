@@ -1,10 +1,11 @@
-package com.firstapp.shopmate
+package com.firstapp.shopmate.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.LinearLayout
+import com.firstapp.shopmate.R
 
 class CategoryActivity : AppCompatActivity() {
 

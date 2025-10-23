@@ -1,4 +1,4 @@
-package com.firstapp.shopmate
+package com.firstapp.shopmate.controller
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
